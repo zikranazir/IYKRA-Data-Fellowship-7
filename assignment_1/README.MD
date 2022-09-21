@@ -20,3 +20,6 @@ Python3:
 5. Install dependencies: `pip install -r requirements.txt`
 6. Running the app: `python uploader.py`
 7. Input "Bucket Name", "URL Source", and "File Name"
+
+Example URL Source:
+`https://raw.githubusercontent.com/corysimmons/colors.json/master/colors.json`
