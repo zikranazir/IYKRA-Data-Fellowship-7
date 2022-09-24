@@ -1,0 +1,26 @@
+[2022-09-24 16:57:16,960] {taskinstance.py:1032} INFO - Dependencies all met for <TaskInstance: xcom_dag.get_bitcoin_rate scheduled__2022-09-24T16:56:15.816449+00:00 [queued]>
+[2022-09-24 16:57:16,985] {taskinstance.py:1032} INFO - Dependencies all met for <TaskInstance: xcom_dag.get_bitcoin_rate scheduled__2022-09-24T16:56:15.816449+00:00 [queued]>
+[2022-09-24 16:57:16,985] {taskinstance.py:1238} INFO - 
+--------------------------------------------------------------------------------
+[2022-09-24 16:57:16,985] {taskinstance.py:1239} INFO - Starting attempt 1 of 1
+[2022-09-24 16:57:16,985] {taskinstance.py:1240} INFO - 
+--------------------------------------------------------------------------------
+[2022-09-24 16:57:17,009] {taskinstance.py:1259} INFO - Executing <Task(PythonOperator): get_bitcoin_rate> on 2022-09-24 16:56:15.816449+00:00
+[2022-09-24 16:57:17,014] {standard_task_runner.py:52} INFO - Started process 751 to run task
+[2022-09-24 16:57:17,018] {standard_task_runner.py:76} INFO - Running: ['***', 'tasks', 'run', 'xcom_dag', 'get_bitcoin_rate', 'scheduled__2022-09-24T16:56:15.816449+00:00', '--job-id', '43', '--raw', '--subdir', 'DAGS_FOLDER/bitcoin_rate_dag.py', '--cfg-path', '/tmp/tmpdkuyj2_7', '--error-file', '/tmp/tmphlacfmcs']
+[2022-09-24 16:57:17,020] {standard_task_runner.py:77} INFO - Job 43: Subtask get_bitcoin_rate
+[2022-09-24 16:57:17,129] {logging_mixin.py:109} INFO - Running <TaskInstance: xcom_dag.get_bitcoin_rate scheduled__2022-09-24T16:56:15.816449+00:00 [running]> on host 4642d339221a
+[2022-09-24 16:57:17,253] {taskinstance.py:1426} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=xcom_dag
+AIRFLOW_CTX_TASK_ID=get_bitcoin_rate
+AIRFLOW_CTX_EXECUTION_DATE=2022-09-24T16:56:15.816449+00:00
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2022-09-24T16:56:15.816449+00:00
+[2022-09-24 16:57:18,094] {api.py:356} INFO - ascii passed initial chaos probing. Mean measured chaos is 0.000000 %
+[2022-09-24 16:57:18,095] {api.py:367} INFO - ascii should target any language(s) of ['Latin Based']
+[2022-09-24 16:57:18,101] {api.py:385} INFO - We detected language [('English', 1.0), ('Dutch', 1.0), ('Indonesian', 1.0)] using ascii
+[2022-09-24 16:57:18,101] {api.py:419} INFO - ascii is most likely the one. Stopping the process.
+[2022-09-24 16:57:18,102] {python.py:175} INFO - Done. Returned value was: {'time': {'updated': 'Sep 24, 2022 16:56:00 UTC', 'updatedISO': '2022-09-24T16:56:00+00:00', 'updateduk': 'Sep 24, 2022 at 17:56 BST'}, 'disclaimer': 'This data was produced from the CoinDesk Bitcoin Price Index (USD). Non-USD currency data converted using hourly conversion rate from openexchangerates.org', 'chartName': 'Bitcoin', 'bpi': {'USD': {'code': 'USD', 'symbol': '&#36;', 'rate': '19,090.0650', 'description': 'United States Dollar', 'rate_float': 19090.065}, 'GBP': {'code': 'GBP', 'symbol': '&pound;', 'rate': '15,951.5056', 'description': 'British Pound Sterling', 'rate_float': 15951.5056}, 'EUR': {'code': 'EUR', 'symbol': '&euro;', 'rate': '18,596.5105', 'description': 'Euro', 'rate_float': 18596.5105}}}
+[2022-09-24 16:57:18,173] {taskinstance.py:1277} INFO - Marking task as SUCCESS. dag_id=xcom_dag, task_id=get_bitcoin_rate, execution_date=20220924T165615, start_date=20220924T165716, end_date=20220924T165718
+[2022-09-24 16:57:18,250] {local_task_job.py:154} INFO - Task exited with return code 0
+[2022-09-24 16:57:18,412] {local_task_job.py:264} INFO - 4 downstream tasks scheduled from follow-on schedule check

@@ -1,0 +1,26 @@
+[2022-09-24 17:08:20,193] {taskinstance.py:1032} INFO - Dependencies all met for <TaskInstance: xcom_dag.time_update scheduled__2022-09-24T17:07:17.009614+00:00 [queued]>
+[2022-09-24 17:08:20,231] {taskinstance.py:1032} INFO - Dependencies all met for <TaskInstance: xcom_dag.time_update scheduled__2022-09-24T17:07:17.009614+00:00 [queued]>
+[2022-09-24 17:08:20,231] {taskinstance.py:1238} INFO - 
+--------------------------------------------------------------------------------
+[2022-09-24 17:08:20,231] {taskinstance.py:1239} INFO - Starting attempt 1 of 1
+[2022-09-24 17:08:20,231] {taskinstance.py:1240} INFO - 
+--------------------------------------------------------------------------------
+[2022-09-24 17:08:20,264] {taskinstance.py:1259} INFO - Executing <Task(PythonOperator): time_update> on 2022-09-24 17:07:17.009614+00:00
+[2022-09-24 17:08:20,288] {standard_task_runner.py:52} INFO - Started process 1427 to run task
+[2022-09-24 17:08:20,290] {standard_task_runner.py:76} INFO - Running: ['***', 'tasks', 'run', 'xcom_dag', 'time_update', 'scheduled__2022-09-24T17:07:17.009614+00:00', '--job-id', '101', '--raw', '--subdir', 'DAGS_FOLDER/bitcoin_rate_dag.py', '--cfg-path', '/tmp/tmpl0ekc7n0', '--error-file', '/tmp/tmpko1zded4']
+[2022-09-24 17:08:20,300] {standard_task_runner.py:77} INFO - Job 101: Subtask time_update
+[2022-09-24 17:08:20,548] {logging_mixin.py:109} INFO - Running <TaskInstance: xcom_dag.time_update scheduled__2022-09-24T17:07:17.009614+00:00 [running]> on host 4642d339221a
+[2022-09-24 17:08:20,726] {taskinstance.py:1426} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=xcom_dag
+AIRFLOW_CTX_TASK_ID=time_update
+AIRFLOW_CTX_EXECUTION_DATE=2022-09-24T17:07:17.009614+00:00
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2022-09-24T17:07:17.009614+00:00
+[2022-09-24 17:08:21,370] {api.py:356} INFO - ascii passed initial chaos probing. Mean measured chaos is 0.000000 %
+[2022-09-24 17:08:21,373] {api.py:367} INFO - ascii should target any language(s) of ['Latin Based']
+[2022-09-24 17:08:21,382] {api.py:385} INFO - We detected language [('English', 1.0), ('Dutch', 1.0), ('Indonesian', 1.0)] using ascii
+[2022-09-24 17:08:21,382] {api.py:419} INFO - ascii is most likely the one. Stopping the process.
+[2022-09-24 17:08:21,420] {python.py:175} INFO - Done. Returned value was: None
+[2022-09-24 17:08:21,454] {taskinstance.py:1277} INFO - Marking task as SUCCESS. dag_id=xcom_dag, task_id=time_update, execution_date=20220924T170717, start_date=20220924T170820, end_date=20220924T170821
+[2022-09-24 17:08:21,514] {local_task_job.py:154} INFO - Task exited with return code 0
+[2022-09-24 17:08:21,606] {local_task_job.py:264} INFO - 0 downstream tasks scheduled from follow-on schedule check

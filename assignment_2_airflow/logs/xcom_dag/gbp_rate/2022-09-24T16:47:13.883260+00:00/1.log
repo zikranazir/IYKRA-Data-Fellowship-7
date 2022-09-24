@@ -1,0 +1,26 @@
+[2022-09-24 16:48:31,843] {taskinstance.py:1032} INFO - Dependencies all met for <TaskInstance: xcom_dag.gbp_rate scheduled__2022-09-24T16:47:13.883260+00:00 [queued]>
+[2022-09-24 16:48:31,864] {taskinstance.py:1032} INFO - Dependencies all met for <TaskInstance: xcom_dag.gbp_rate scheduled__2022-09-24T16:47:13.883260+00:00 [queued]>
+[2022-09-24 16:48:31,864] {taskinstance.py:1238} INFO - 
+--------------------------------------------------------------------------------
+[2022-09-24 16:48:31,864] {taskinstance.py:1239} INFO - Starting attempt 1 of 1
+[2022-09-24 16:48:31,864] {taskinstance.py:1240} INFO - 
+--------------------------------------------------------------------------------
+[2022-09-24 16:48:31,895] {taskinstance.py:1259} INFO - Executing <Task(PythonOperator): gbp_rate> on 2022-09-24 16:47:13.883260+00:00
+[2022-09-24 16:48:31,898] {standard_task_runner.py:52} INFO - Started process 237 to run task
+[2022-09-24 16:48:31,904] {standard_task_runner.py:76} INFO - Running: ['***', 'tasks', 'run', 'xcom_dag', 'gbp_rate', 'scheduled__2022-09-24T16:47:13.883260+00:00', '--job-id', '4', '--raw', '--subdir', 'DAGS_FOLDER/data_ingestion_gcs_dag.py', '--cfg-path', '/tmp/tmpa3h0fgnh', '--error-file', '/tmp/tmpb4qz7yt3']
+[2022-09-24 16:48:31,905] {standard_task_runner.py:77} INFO - Job 4: Subtask gbp_rate
+[2022-09-24 16:48:32,016] {logging_mixin.py:109} INFO - Running <TaskInstance: xcom_dag.gbp_rate scheduled__2022-09-24T16:47:13.883260+00:00 [running]> on host 4642d339221a
+[2022-09-24 16:48:32,227] {taskinstance.py:1426} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=xcom_dag
+AIRFLOW_CTX_TASK_ID=gbp_rate
+AIRFLOW_CTX_EXECUTION_DATE=2022-09-24T16:47:13.883260+00:00
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2022-09-24T16:47:13.883260+00:00
+[2022-09-24 16:48:32,467] {api.py:356} INFO - ascii passed initial chaos probing. Mean measured chaos is 0.000000 %
+[2022-09-24 16:48:32,467] {api.py:367} INFO - ascii should target any language(s) of ['Latin Based']
+[2022-09-24 16:48:32,470] {api.py:385} INFO - We detected language [('English', 1.0), ('Dutch', 1.0), ('Indonesian', 1.0)] using ascii
+[2022-09-24 16:48:32,470] {api.py:419} INFO - ascii is most likely the one. Stopping the process.
+[2022-09-24 16:48:32,485] {python.py:175} INFO - Done. Returned value was: None
+[2022-09-24 16:48:32,502] {taskinstance.py:1277} INFO - Marking task as SUCCESS. dag_id=xcom_dag, task_id=gbp_rate, execution_date=20220924T164713, start_date=20220924T164831, end_date=20220924T164832
+[2022-09-24 16:48:32,560] {local_task_job.py:154} INFO - Task exited with return code 0
+[2022-09-24 16:48:32,608] {local_task_job.py:264} INFO - 0 downstream tasks scheduled from follow-on schedule check

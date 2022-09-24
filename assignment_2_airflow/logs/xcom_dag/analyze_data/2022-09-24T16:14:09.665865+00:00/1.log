@@ -1,0 +1,23 @@
+[2022-09-24 16:15:12,170] {taskinstance.py:1032} INFO - Dependencies all met for <TaskInstance: xcom_dag.analyze_data scheduled__2022-09-24T16:14:09.665865+00:00 [queued]>
+[2022-09-24 16:15:12,185] {taskinstance.py:1032} INFO - Dependencies all met for <TaskInstance: xcom_dag.analyze_data scheduled__2022-09-24T16:14:09.665865+00:00 [queued]>
+[2022-09-24 16:15:12,186] {taskinstance.py:1238} INFO - 
+--------------------------------------------------------------------------------
+[2022-09-24 16:15:12,186] {taskinstance.py:1239} INFO - Starting attempt 1 of 2
+[2022-09-24 16:15:12,186] {taskinstance.py:1240} INFO - 
+--------------------------------------------------------------------------------
+[2022-09-24 16:15:12,202] {taskinstance.py:1259} INFO - Executing <Task(PythonOperator): analyze_data> on 2022-09-24 16:14:09.665865+00:00
+[2022-09-24 16:15:12,206] {standard_task_runner.py:52} INFO - Started process 413 to run task
+[2022-09-24 16:15:12,210] {standard_task_runner.py:76} INFO - Running: ['***', 'tasks', 'run', 'xcom_dag', 'analyze_data', 'scheduled__2022-09-24T16:14:09.665865+00:00', '--job-id', '26', '--raw', '--subdir', 'DAGS_FOLDER/data_ingestion_gcs_dag.py', '--cfg-path', '/tmp/tmp61h7ef_8', '--error-file', '/tmp/tmpdsah4pue']
+[2022-09-24 16:15:12,211] {standard_task_runner.py:77} INFO - Job 26: Subtask analyze_data
+[2022-09-24 16:15:12,284] {logging_mixin.py:109} INFO - Running <TaskInstance: xcom_dag.analyze_data scheduled__2022-09-24T16:14:09.665865+00:00 [running]> on host 55a2d977a435
+[2022-09-24 16:15:12,403] {taskinstance.py:1426} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=xcom_dag
+AIRFLOW_CTX_TASK_ID=analyze_data
+AIRFLOW_CTX_EXECUTION_DATE=2022-09-24T16:14:09.665865+00:00
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2022-09-24T16:14:09.665865+00:00
+[2022-09-24 16:15:12,425] {logging_mixin.py:109} INFO - Testing increases: {'time': {'updated': 'Sep 24, 2022 16:14:00 UTC', 'updatedISO': '2022-09-24T16:14:00+00:00', 'updateduk': 'Sep 24, 2022 at 17:14 BST'}, 'disclaimer': 'This data was produced from the CoinDesk Bitcoin Price Index (USD). Non-USD currency data converted using hourly conversion rate from openexchangerates.org', 'chartName': 'Bitcoin', 'bpi': {'USD': {'code': 'USD', 'symbol': '&#36;', 'rate': '19,129.9822', 'description': 'United States Dollar', 'rate_float': 19129.9822}, 'GBP': {'code': 'GBP', 'symbol': '&pound;', 'rate': '15,984.8601', 'description': 'British Pound Sterling', 'rate_float': 15984.8601}, 'EUR': {'code': 'EUR', 'symbol': '&euro;', 'rate': '18,635.3957', 'description': 'Euro', 'rate_float': 18635.3957}}}
+[2022-09-24 16:15:12,425] {python.py:175} INFO - Done. Returned value was: None
+[2022-09-24 16:15:12,448] {taskinstance.py:1277} INFO - Marking task as SUCCESS. dag_id=xcom_dag, task_id=analyze_data, execution_date=20220924T161409, start_date=20220924T161512, end_date=20220924T161512
+[2022-09-24 16:15:12,504] {local_task_job.py:154} INFO - Task exited with return code 0
+[2022-09-24 16:15:12,560] {local_task_job.py:264} INFO - 0 downstream tasks scheduled from follow-on schedule check

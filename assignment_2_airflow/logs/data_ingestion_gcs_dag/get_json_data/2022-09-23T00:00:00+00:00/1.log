@@ -1,0 +1,44 @@
+[2022-09-24 06:05:21,183] {taskinstance.py:1032} INFO - Dependencies all met for <TaskInstance: data_ingestion_gcs_dag.get_json_data scheduled__2022-09-23T00:00:00+00:00 [queued]>
+[2022-09-24 06:05:21,198] {taskinstance.py:1032} INFO - Dependencies all met for <TaskInstance: data_ingestion_gcs_dag.get_json_data scheduled__2022-09-23T00:00:00+00:00 [queued]>
+[2022-09-24 06:05:21,199] {taskinstance.py:1238} INFO - 
+--------------------------------------------------------------------------------
+[2022-09-24 06:05:21,199] {taskinstance.py:1239} INFO - Starting attempt 1 of 2
+[2022-09-24 06:05:21,199] {taskinstance.py:1240} INFO - 
+--------------------------------------------------------------------------------
+[2022-09-24 06:05:21,218] {taskinstance.py:1259} INFO - Executing <Task(PythonOperator): get_json_data> on 2022-09-23 00:00:00+00:00
+[2022-09-24 06:05:21,223] {standard_task_runner.py:52} INFO - Started process 510 to run task
+[2022-09-24 06:05:21,226] {standard_task_runner.py:76} INFO - Running: ['***', 'tasks', 'run', 'data_ingestion_gcs_dag', 'get_json_data', 'scheduled__2022-09-23T00:00:00+00:00', '--job-id', '2', '--raw', '--subdir', 'DAGS_FOLDER/data_ingestion_gcs_dag.py', '--cfg-path', '/tmp/tmp0kmfc80m', '--error-file', '/tmp/tmphvbvddg2']
+[2022-09-24 06:05:21,228] {standard_task_runner.py:77} INFO - Job 2: Subtask get_json_data
+[2022-09-24 06:05:21,295] {logging_mixin.py:109} INFO - Running <TaskInstance: data_ingestion_gcs_dag.get_json_data scheduled__2022-09-23T00:00:00+00:00 [running]> on host 2028e817f667
+[2022-09-24 06:05:21,370] {taskinstance.py:1426} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=data_ingestion_gcs_dag
+AIRFLOW_CTX_TASK_ID=get_json_data
+AIRFLOW_CTX_EXECUTION_DATE=2022-09-23T00:00:00+00:00
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2022-09-23T00:00:00+00:00
+[2022-09-24 06:05:21,979] {python.py:175} INFO - Done. Returned value was: {'time': {'updated': 'Sep 24, 2022 06:04:00 UTC', 'updatedISO': '2022-09-24T06:04:00+00:00', 'updateduk': 'Sep 24, 2022 at 07:04 BST'}, 'disclaimer': 'This data was produced from the CoinDesk Bitcoin Price Index (USD). Non-USD currency data converted using hourly conversion rate from openexchangerates.org', 'chartName': 'Bitcoin', 'bpi': {'USD': {'code': 'USD', 'symbol': '&#36;', 'rate': '19,154.0766', 'description': 'United States Dollar', 'rate_float': 19154.0766}, 'GBP': {'code': 'GBP', 'symbol': '&pound;', 'rate': '16,004.9931', 'description': 'British Pound Sterling', 'rate_float': 16004.9931}, 'EUR': {'code': 'EUR', 'symbol': '&euro;', 'rate': '18,658.8671', 'description': 'Euro', 'rate_float': 18658.8671}}}
+[2022-09-24 06:05:22,025] {taskinstance.py:1277} INFO - Marking task as SUCCESS. dag_id=data_ingestion_gcs_dag, task_id=get_json_data, execution_date=20220923T000000, start_date=20220924T060521, end_date=20220924T060522
+[2022-09-24 06:05:22,090] {local_task_job.py:154} INFO - Task exited with return code 0
+[2022-09-24 06:05:22,151] {local_task_job.py:264} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2022-09-24 14:33:23,629] {taskinstance.py:1032} INFO - Dependencies all met for <TaskInstance: data_ingestion_gcs_dag.get_json_data scheduled__2022-09-23T00:00:00+00:00 [queued]>
+[2022-09-24 14:33:23,643] {taskinstance.py:1032} INFO - Dependencies all met for <TaskInstance: data_ingestion_gcs_dag.get_json_data scheduled__2022-09-23T00:00:00+00:00 [queued]>
+[2022-09-24 14:33:23,643] {taskinstance.py:1238} INFO - 
+--------------------------------------------------------------------------------
+[2022-09-24 14:33:23,643] {taskinstance.py:1239} INFO - Starting attempt 1 of 2
+[2022-09-24 14:33:23,643] {taskinstance.py:1240} INFO - 
+--------------------------------------------------------------------------------
+[2022-09-24 14:33:23,660] {taskinstance.py:1259} INFO - Executing <Task(PythonOperator): get_json_data> on 2022-09-23 00:00:00+00:00
+[2022-09-24 14:33:23,666] {standard_task_runner.py:52} INFO - Started process 266 to run task
+[2022-09-24 14:33:23,669] {standard_task_runner.py:76} INFO - Running: ['***', 'tasks', 'run', 'data_ingestion_gcs_dag', 'get_json_data', 'scheduled__2022-09-23T00:00:00+00:00', '--job-id', '2', '--raw', '--subdir', 'DAGS_FOLDER/data_ingestion_gcs_dag.py', '--cfg-path', '/tmp/tmp0r66x8ip', '--error-file', '/tmp/tmpfdsz1k_s']
+[2022-09-24 14:33:23,670] {standard_task_runner.py:77} INFO - Job 2: Subtask get_json_data
+[2022-09-24 14:33:23,749] {logging_mixin.py:109} INFO - Running <TaskInstance: data_ingestion_gcs_dag.get_json_data scheduled__2022-09-23T00:00:00+00:00 [running]> on host 08e8bc39e1dd
+[2022-09-24 14:33:23,833] {taskinstance.py:1426} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=data_ingestion_gcs_dag
+AIRFLOW_CTX_TASK_ID=get_json_data
+AIRFLOW_CTX_EXECUTION_DATE=2022-09-23T00:00:00+00:00
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2022-09-23T00:00:00+00:00
+[2022-09-24 14:33:25,116] {python.py:175} INFO - Done. Returned value was: {'time': {'updated': 'Sep 24, 2022 14:32:00 UTC', 'updatedISO': '2022-09-24T14:32:00+00:00', 'updateduk': 'Sep 24, 2022 at 15:32 BST'}, 'disclaimer': 'This data was produced from the CoinDesk Bitcoin Price Index (USD). Non-USD currency data converted using hourly conversion rate from openexchangerates.org', 'chartName': 'Bitcoin', 'bpi': {'USD': {'code': 'USD', 'symbol': '&#36;', 'rate': '19,109.8365', 'description': 'United States Dollar', 'rate_float': 19109.8365}, 'GBP': {'code': 'GBP', 'symbol': '&pound;', 'rate': '15,968.0265', 'description': 'British Pound Sterling', 'rate_float': 15968.0265}, 'EUR': {'code': 'EUR', 'symbol': '&euro;', 'rate': '18,615.7708', 'description': 'Euro', 'rate_float': 18615.7708}}}
+[2022-09-24 14:33:25,147] {taskinstance.py:1277} INFO - Marking task as SUCCESS. dag_id=data_ingestion_gcs_dag, task_id=get_json_data, execution_date=20220923T000000, start_date=20220924T143323, end_date=20220924T143325
+[2022-09-24 14:33:25,208] {local_task_job.py:154} INFO - Task exited with return code 0
+[2022-09-24 14:33:25,248] {local_task_job.py:264} INFO - 0 downstream tasks scheduled from follow-on schedule check
