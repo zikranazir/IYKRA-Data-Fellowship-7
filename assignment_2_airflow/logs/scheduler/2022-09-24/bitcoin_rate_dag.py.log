@@ -173,3 +173,38 @@
 [2022-09-24 17:09:20,514] {logging_mixin.py:109} INFO - [2022-09-24 17:09:20,514] {dag.py:2396} INFO - Sync 1 DAGs
 [2022-09-24 17:09:20,538] {logging_mixin.py:109} INFO - [2022-09-24 17:09:20,538] {dag.py:2935} INFO - Setting next_dagrun for xcom_dag to 2022-09-24T17:09:17.009614+00:00
 [2022-09-24 17:09:20,550] {processor.py:171} INFO - Processing /opt/airflow/dags/bitcoin_rate_dag.py took 0.101 seconds
+[2022-09-24 17:09:50,610] {processor.py:163} INFO - Started process (PID=1516) to work on /opt/airflow/dags/bitcoin_rate_dag.py
+[2022-09-24 17:09:50,617] {processor.py:642} INFO - Processing file /opt/airflow/dags/bitcoin_rate_dag.py for tasks to queue
+[2022-09-24 17:09:50,618] {logging_mixin.py:109} INFO - [2022-09-24 17:09:50,618] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/bitcoin_rate_dag.py
+[2022-09-24 17:09:50,665] {processor.py:654} INFO - DAG(s) dict_keys(['xcom_dag']) retrieved from /opt/airflow/dags/bitcoin_rate_dag.py
+[2022-09-24 17:09:50,678] {logging_mixin.py:109} INFO - [2022-09-24 17:09:50,678] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-09-24 17:09:50,701] {logging_mixin.py:109} INFO - [2022-09-24 17:09:50,701] {dag.py:2935} INFO - Setting next_dagrun for xcom_dag to 2022-09-24T17:09:17.009614+00:00
+[2022-09-24 17:09:50,717] {processor.py:171} INFO - Processing /opt/airflow/dags/bitcoin_rate_dag.py took 0.115 seconds
+[2022-09-24 17:10:20,869] {processor.py:163} INFO - Started process (PID=1549) to work on /opt/airflow/dags/bitcoin_rate_dag.py
+[2022-09-24 17:10:20,871] {processor.py:642} INFO - Processing file /opt/airflow/dags/bitcoin_rate_dag.py for tasks to queue
+[2022-09-24 17:10:20,873] {logging_mixin.py:109} INFO - [2022-09-24 17:10:20,873] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/bitcoin_rate_dag.py
+[2022-09-24 17:10:21,026] {processor.py:654} INFO - DAG(s) dict_keys(['xcom_dag']) retrieved from /opt/airflow/dags/bitcoin_rate_dag.py
+[2022-09-24 17:10:21,060] {logging_mixin.py:109} INFO - [2022-09-24 17:10:21,060] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-09-24 17:10:21,138] {logging_mixin.py:109} INFO - [2022-09-24 17:10:21,138] {dag.py:2935} INFO - Setting next_dagrun for xcom_dag to 2022-09-24T17:10:17.009614+00:00
+[2022-09-24 17:10:21,215] {processor.py:171} INFO - Processing /opt/airflow/dags/bitcoin_rate_dag.py took 0.379 seconds
+[2022-09-24 17:10:51,336] {processor.py:163} INFO - Started process (PID=1580) to work on /opt/airflow/dags/bitcoin_rate_dag.py
+[2022-09-24 17:10:51,338] {processor.py:642} INFO - Processing file /opt/airflow/dags/bitcoin_rate_dag.py for tasks to queue
+[2022-09-24 17:10:51,340] {logging_mixin.py:109} INFO - [2022-09-24 17:10:51,339] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/bitcoin_rate_dag.py
+[2022-09-24 17:10:51,403] {processor.py:654} INFO - DAG(s) dict_keys(['xcom_dag']) retrieved from /opt/airflow/dags/bitcoin_rate_dag.py
+[2022-09-24 17:10:51,426] {logging_mixin.py:109} INFO - [2022-09-24 17:10:51,426] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-09-24 17:10:51,462] {logging_mixin.py:109} INFO - [2022-09-24 17:10:51,462] {dag.py:2935} INFO - Setting next_dagrun for xcom_dag to 2022-09-24T17:10:17.009614+00:00
+[2022-09-24 17:10:51,480] {processor.py:171} INFO - Processing /opt/airflow/dags/bitcoin_rate_dag.py took 0.149 seconds
+[2022-09-24 17:11:21,553] {processor.py:163} INFO - Started process (PID=1613) to work on /opt/airflow/dags/bitcoin_rate_dag.py
+[2022-09-24 17:11:21,554] {processor.py:642} INFO - Processing file /opt/airflow/dags/bitcoin_rate_dag.py for tasks to queue
+[2022-09-24 17:11:21,555] {logging_mixin.py:109} INFO - [2022-09-24 17:11:21,555] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/bitcoin_rate_dag.py
+[2022-09-24 17:11:21,582] {processor.py:654} INFO - DAG(s) dict_keys(['xcom_dag']) retrieved from /opt/airflow/dags/bitcoin_rate_dag.py
+[2022-09-24 17:11:21,593] {logging_mixin.py:109} INFO - [2022-09-24 17:11:21,593] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-09-24 17:11:21,612] {logging_mixin.py:109} INFO - [2022-09-24 17:11:21,612] {dag.py:2935} INFO - Setting next_dagrun for xcom_dag to 2022-09-24T17:11:17.009614+00:00
+[2022-09-24 17:11:21,622] {processor.py:171} INFO - Processing /opt/airflow/dags/bitcoin_rate_dag.py took 0.072 seconds
+[2022-09-24 17:11:51,694] {processor.py:163} INFO - Started process (PID=1636) to work on /opt/airflow/dags/bitcoin_rate_dag.py
+[2022-09-24 17:11:51,696] {processor.py:642} INFO - Processing file /opt/airflow/dags/bitcoin_rate_dag.py for tasks to queue
+[2022-09-24 17:11:51,697] {logging_mixin.py:109} INFO - [2022-09-24 17:11:51,697] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/bitcoin_rate_dag.py
+[2022-09-24 17:11:51,742] {processor.py:654} INFO - DAG(s) dict_keys(['xcom_dag']) retrieved from /opt/airflow/dags/bitcoin_rate_dag.py
+[2022-09-24 17:11:51,754] {logging_mixin.py:109} INFO - [2022-09-24 17:11:51,754] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-09-24 17:11:51,775] {logging_mixin.py:109} INFO - [2022-09-24 17:11:51,775] {dag.py:2935} INFO - Setting next_dagrun for xcom_dag to 2022-09-24T17:11:17.009614+00:00
+[2022-09-24 17:11:51,786] {processor.py:171} INFO - Processing /opt/airflow/dags/bitcoin_rate_dag.py took 0.099 seconds

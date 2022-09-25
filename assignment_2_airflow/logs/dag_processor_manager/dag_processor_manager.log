@@ -12324,3 +12324,74 @@ File Path                              PID    Runtime      # DAGs    # Errors  L
 -------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
 /opt/airflow/dags/bitcoin_rate_dag.py                           1           0  0.13s           2022-09-24T17:09:20
 ================================================================================
+[2022-09-24 17:09:33,505] {manager.py:1065} INFO - Finding 'running' jobs without a recent heartbeat
+[2022-09-24 17:09:33,506] {manager.py:1069} INFO - Failing jobs without heartbeat after 2022-09-24 17:04:33.506292+00:00
+[2022-09-24 17:09:43,554] {manager.py:1065} INFO - Finding 'running' jobs without a recent heartbeat
+[2022-09-24 17:09:43,554] {manager.py:1069} INFO - Failing jobs without heartbeat after 2022-09-24 17:04:43.554571+00:00
+[2022-09-24 17:09:53,626] {manager.py:1065} INFO - Finding 'running' jobs without a recent heartbeat
+[2022-09-24 17:09:53,627] {manager.py:1069} INFO - Failing jobs without heartbeat after 2022-09-24 17:04:53.627245+00:00
+[2022-09-24 17:09:53,641] {manager.py:784} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/bitcoin_rate_dag.py                           1           0  0.14s           2022-09-24T17:09:50
+================================================================================
+[2022-09-24 17:10:03,665] {manager.py:1065} INFO - Finding 'running' jobs without a recent heartbeat
+[2022-09-24 17:10:03,666] {manager.py:1069} INFO - Failing jobs without heartbeat after 2022-09-24 17:05:03.666414+00:00
+[2022-09-24 17:10:13,717] {manager.py:1065} INFO - Finding 'running' jobs without a recent heartbeat
+[2022-09-24 17:10:13,718] {manager.py:1069} INFO - Failing jobs without heartbeat after 2022-09-24 17:05:13.718445+00:00
+[2022-09-24 17:10:23,823] {manager.py:1065} INFO - Finding 'running' jobs without a recent heartbeat
+[2022-09-24 17:10:23,823] {manager.py:1069} INFO - Failing jobs without heartbeat after 2022-09-24 17:05:23.823779+00:00
+[2022-09-24 17:10:23,848] {manager.py:784} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/bitcoin_rate_dag.py                           1           0  0.48s           2022-09-24T17:10:21
+================================================================================
+[2022-09-24 17:10:33,863] {manager.py:1065} INFO - Finding 'running' jobs without a recent heartbeat
+[2022-09-24 17:10:33,864] {manager.py:1069} INFO - Failing jobs without heartbeat after 2022-09-24 17:05:33.864171+00:00
+[2022-09-24 17:10:43,893] {manager.py:1065} INFO - Finding 'running' jobs without a recent heartbeat
+[2022-09-24 17:10:43,893] {manager.py:1069} INFO - Failing jobs without heartbeat after 2022-09-24 17:05:43.893563+00:00
+[2022-09-24 17:10:54,330] {manager.py:1065} INFO - Finding 'running' jobs without a recent heartbeat
+[2022-09-24 17:10:54,330] {manager.py:1069} INFO - Failing jobs without heartbeat after 2022-09-24 17:05:54.330755+00:00
+[2022-09-24 17:10:54,352] {manager.py:784} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/bitcoin_rate_dag.py                           1           0  0.18s           2022-09-24T17:10:51
+================================================================================
+[2022-09-24 17:11:04,375] {manager.py:1065} INFO - Finding 'running' jobs without a recent heartbeat
+[2022-09-24 17:11:04,376] {manager.py:1069} INFO - Failing jobs without heartbeat after 2022-09-24 17:06:04.376112+00:00
+[2022-09-24 17:11:14,411] {manager.py:1065} INFO - Finding 'running' jobs without a recent heartbeat
+[2022-09-24 17:11:14,411] {manager.py:1069} INFO - Failing jobs without heartbeat after 2022-09-24 17:06:14.411829+00:00
+[2022-09-24 17:11:24,551] {manager.py:1065} INFO - Finding 'running' jobs without a recent heartbeat
+[2022-09-24 17:11:24,552] {manager.py:1069} INFO - Failing jobs without heartbeat after 2022-09-24 17:06:24.552495+00:00
+[2022-09-24 17:11:24,576] {manager.py:784} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/bitcoin_rate_dag.py                           1           0  0.09s           2022-09-24T17:11:21
+================================================================================
+[2022-09-24 17:11:34,599] {manager.py:1065} INFO - Finding 'running' jobs without a recent heartbeat
+[2022-09-24 17:11:34,600] {manager.py:1069} INFO - Failing jobs without heartbeat after 2022-09-24 17:06:34.600187+00:00
+[2022-09-24 17:11:44,638] {manager.py:1065} INFO - Finding 'running' jobs without a recent heartbeat
+[2022-09-24 17:11:44,638] {manager.py:1069} INFO - Failing jobs without heartbeat after 2022-09-24 17:06:44.638935+00:00
+[2022-09-24 17:11:54,686] {manager.py:1065} INFO - Finding 'running' jobs without a recent heartbeat
+[2022-09-24 17:11:54,686] {manager.py:1069} INFO - Failing jobs without heartbeat after 2022-09-24 17:06:54.686933+00:00
+[2022-09-24 17:11:54,704] {manager.py:784} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/bitcoin_rate_dag.py                           1           0  0.12s           2022-09-24T17:11:51
+================================================================================
+[2022-09-24 17:11:59,982] {manager.py:495} INFO - Exiting gracefully upon receiving signal 15
