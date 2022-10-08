@@ -1,0 +1,39 @@
+{
+  "namespace": "com.iykra.bitcoin",
+  "type": "record",
+  "name": "BitcoinPrice",
+  "fields": [
+    {
+      "name": "Date",
+      "type": "str"
+    },
+    {
+      "name": "Open",
+      "type": "float"
+    },
+    {
+      "name": "High",
+      "type": "float"
+    },
+    {
+      "name": "Low",
+      "type": "float"
+    },
+    {
+      "name": "Close",
+      "type": "float"
+    },
+    {
+      "name": "Volume",
+      "type": "float"
+    },
+    {
+      "name": "Volume",
+      "type": "float"
+    },
+    {
+      "name": "Market Cap",
+      "type": "float"
+    }
+  ]
+}

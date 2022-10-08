@@ -1,0 +1,11 @@
+{
+  "namespace": "com.iykra.bitcoin",
+  "type": "record",
+  "name": "BitcoinPriceKey",
+  "fields": [
+    {
+      "name": "Date",
+      "type": "str"
+    }
+  ]
+}
